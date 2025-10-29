@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.pepo{
+    text-align: center;
+    color: azure;
+    margin: 10px;
+}
+.contenedor1 {
+    background: radial-gradient(circle at 22% 87%, #6470f7 5%, #82affb 25%, #a7cdff 60%, #ebf7fe 100%);
+    width: 95vw;
+    min-height: 100vh; 
+    padding: 30px;
+    margin: 5vh 2.5vw;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont2 {
+    background-color: azure;
+    padding: 30px; 
+    border-radius: 10px;
+    width: 90%; 
+    max-width: 400px; 
+    box-sizing: border-box;
+}
+
+.bien{
+    text-align: center;
+}
+
+
+.centro{
+    text-align: center;
+}
+.hola{
+    text-decoration: none;
+    color: azure;    
+    font-size: 25px;
+    text-align: left;
+    display: block;
+    align-self: flex-start;
+
+}
+p b {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 14px 18px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    
+}
+
+
+
+.options-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.forgot-password {
+    text-decoration: none;
+  
+    color: #6190e8;
+    font-weight: 500;
+}
+
+.btn-primary, .btn-google {
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px; 
+    cursor: pointer;
+    font-weight: bold;
+    transition: opacity 0.3s;
+    border: none;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #8c7ae9; 
+    color: white;
+    margin-top: 5px;
+}
+
+.btn-google {
+    background-color: white;
+    color: #555;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+.signup-link a {
+    color: #8c7ae9; 
+    text-decoration: none;
+    font-weight: bold;
+}
